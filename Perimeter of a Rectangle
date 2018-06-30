@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+//Perimeter of a Rectangle
+
+int main()
+{
+	double length,width,perimeter;
+
+	cout<<"Enter length : ";
+	cin>>length;
+
+	cout<<"Enter width : ";
+	cin>>width;
+
+	length = length*2;
+	width = width*2;
+
+	perimeter =length + width;
+
+	cout<<perimeter;
+
+
+	return 0;
+}
