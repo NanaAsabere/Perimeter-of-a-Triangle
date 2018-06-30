@@ -1,0 +1,51 @@
+#include <iostream>
+#include <string>
+
+//Full Name, School, Age, Course you study
+
+using namespace std;
+
+int main()
+{
+  string lastname;
+  cout <<" Enter lastname  : "<<endl;
+  cin >> lastname;
+
+  string middlename;
+  cout <<" Enter middlename : " <<endl;
+  cin >> middlename;
+
+  string firstname;
+  cout << "Enter firstname :" <<endl;
+  cin >> firstname ;
+
+  string fullname = lastname + middlename + firstname;
+
+
+   string age;
+  cout << "Enter your age : " <<endl;
+  cin >> age;
+
+
+  string school;
+  cout << "Enter the school you attend : " <<endl;
+  cin >> school;
+
+
+  string course;
+  cout << "Enter course you study : " <<endl;
+  cin >> course;
+
+
+
+  cout <<"  Your fullname is: "<< endl <<fullname <<endl ;
+
+  cout << " Your age is : " << endl <<age <<endl;
+
+  cout << " The school you attend is: "<< endl <<school <<endl;
+
+  cout << " The course you study is: "<< endl <<course <<endl;
+
+
+    return 0;
+}
