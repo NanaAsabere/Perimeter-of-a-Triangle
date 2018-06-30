@@ -1,0 +1,112 @@
+/*
+		GROUP 10 :
+	
+				Ernest Kwadwo Asabere  
+
+															// 54 Lines of Codes //
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	
+	char accept;
+	
+	int number_1;
+	int number_2;
+	int answer;
+	
+	cout<<"Ernest x Fauzia x Benjamin app"<<endl;
+	
+	cout<<endl;
+	
+	cout<<"This App perform basic Calculations, see the Menu below : "<<endl;
+	
+		cout<<endl;
+	
+	cout<<"Press A for Addition"<<endl;
+        
+    cout<<"Press M for Multiplication"<<endl;
+
+    cout<<"Press S for Subtraction"<<endl;
+
+        cout<<endl;
+        
+    cout<<"Please choose one of the Options above : ";
+    cin>>accept;
+    
+    cout<<endl;
+        
+    switch(accept){
+    	
+    	case 'A' : 
+    	
+    		cout<<"Please Enter your First Number : ";
+    		cin>>number_1;
+    		
+    		cout<<endl;
+    		
+    		cout<<"Please Enter your Second Number : ";
+    		cin>>number_2;
+    		
+    		cout<<endl;
+    		
+    		answer = number_1 + number_2;
+    		
+    		cout<<"Addition : "<<answer<<endl;
+    		
+    		break;
+    	
+    	case 'M' : 
+    	
+    		cout<<"Please Enter your First Number : ";
+    		cin>>number_1;
+    		
+    		cout<<endl;
+    		
+    		cout<<"Please Enter your Second Number : ";
+    		cin>>number_2;
+    		
+    		cout<<endl;
+    		
+    		answer = number_1 * number_2;
+    		
+    		cout<<"Multiplication : "<<answer<<endl;
+    
+			break;
+			
+		case 'S' :
+			
+			cout<<"Please Enter your First Number : ";
+    		cin>>number_1;
+    		
+    		cout<<endl;
+    		
+    		cout<<"Please Enter your Second Number : ";
+    		cin>>number_2;
+    		
+    		cout<<endl;
+			
+			answer = number_1 - number_2;
+    		
+    		cout<<"Subtraction : "<<answer<<endl;
+    		
+    		break;
+	
+		default : 
+		
+			cout<<"Invalid Option"<<endl;
+	
+	
+	}
+	
+	cout<<endl;
+	
+	cout<<"Program Ended!!!";
+
+	//cin>>accept;
+	
+	return 0;	
+}
